@@ -23,8 +23,20 @@ const poppins = localFont({
 });
 
 export const metadata = {
-  title: "Hamza Naeem - Software Developer",
-  description: "Software Developer leading cross-functional teams to deliver production-ready full-stack applications with modern technologies.",
+  title: "Hamza Naeem - Full-Stack Developer & Tech Lead",
+  description: "Full-stack developer building production-ready applications. Expertise in React, Node.js, AWS, and real-time systems. 10K+ users scaled, 99.9% uptime maintained.",
+  keywords: "Full-Stack Developer, React, Node.js, Next.js, AWS, PostgreSQL, MongoDB, Software Engineer",
+  authors: [{ name: "Hamza Naeem" }],
+  openGraph: {
+    title: "Hamza Naeem - Full-Stack Developer & Tech Lead",
+    description: "Building production-ready applications with modern technologies",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hamza Naeem - Full-Stack Developer & Tech Lead",
+    description: "Full-stack developer with expertise in React, Node.js, and AWS",
+  },
 };
 
 export default function RootLayout({ children }) {
