@@ -23,8 +23,8 @@ const poppins = localFont({
 });
 
 export const metadata = {
-  title: "Hamza Naeem - Full Stack Developer",
-  description: "Dynamic Full stack developer eager to contribute to web application development with innovative solutions.",
+  title: "Hamza Naeem - Software Developer",
+  description: "Software Developer leading cross-functional teams to deliver production-ready full-stack applications with modern technologies.",
 };
 
 export default function RootLayout({ children }) {

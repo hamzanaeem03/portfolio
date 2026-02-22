@@ -39,13 +39,13 @@ export default function Home() {
                   Available for work
                 </div>
                 <h1 className="text-6xl lg:text-8xl font-display font-bold text-gray-900 leading-tight tracking-tight">
-                  Hi, I'm <span className="gradient-text">Hamza</span>
+                  Hi, I'm <span className="gradient-text">Hamza Naeem</span>
                 </h1>
                 <p className="text-2xl lg:text-3xl text-gray-700 font-medium tracking-tight">
-                  Full Stack Developer
+                  Software Developer
                 </p>
                 <p className="text-xl text-gray-600 leading-relaxed max-w-lg font-light">
-                  Crafting exceptional digital experiences with clean code and modern design.
+                  Leading cross-functional teams to deliver production-ready full-stack applications with modern technologies.
                 </p>
               </div>
               
@@ -113,19 +113,17 @@ export default function Home() {
           </div>
           
           <div className="max-w-4xl mx-auto space-y-8">
-            {/* Education Item 1 */}
+            {/* BS Computer Science */}
             <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-sky-400 to-blue-400 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="university"
-                    className="w-10 h-10 object-contain rounded-lg"
-                    src="https://cdn.moawin.pk/images/branches/2024/07/25/fgcsr_nknLw.png"
-                  />
+                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                    <GraduationCap className="w-5 h-5 text-sky-500" />
+                  </div>
                 </div>
                 <div className="flex-grow space-y-3">
                   <h3 className="text-2xl font-bold text-gray-900 group-hover:text-sky-600 transition-smooth">
-                    BS Computer Science
+                    BS in Computer Science
                   </h3>
                   <p className="text-gray-700 font-medium text-lg">
                     Dawood University of Engineering and Technology
@@ -133,34 +131,7 @@ export default function Home() {
                   <div className="flex items-center gap-4 text-gray-500 text-sm">
                     <span className="flex items-center gap-2">
                       <Calendar className="w-4 h-4" />
-                      08/2021 - Present
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Education Item 2 */}
-            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
-              <div className="flex items-start gap-6">
-                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-sky-400 to-blue-400 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="school"
-                    className="w-10 h-10 object-contain rounded-lg"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD2xaYHYzyUfqOMWq3sEEzUyIrR1vKZz9hDw&s"
-                  />
-                </div>
-                <div className="flex-grow space-y-3">
-                  <h3 className="text-2xl font-bold text-gray-900 group-hover:text-sky-600 transition-smooth">
-                    Intermediate
-                  </h3>
-                  <p className="text-gray-700 font-medium text-lg">
-                    Usman Public Schooling System
-                  </p>
-                  <div className="flex items-center gap-4 text-gray-500 text-sm">
-                    <span className="flex items-center gap-2">
-                      <Calendar className="w-4 h-4" />
-                      05/2019 - 05/2021
+                      Expected Sept 2025
                     </span>
                   </div>
                 </div>
@@ -181,39 +152,140 @@ export default function Home() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">Professional journey and achievements</p>
           </div>
           
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto space-y-8">
+            {/* Software Developer - Enter and Post LLC */}
             <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-sky-400 to-blue-400 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="company"
-                    className="w-10 h-10 object-contain rounded-lg bg-white p-2"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkdeyZWDX9yQELdwBtcRoWOdWLQ4cBp2hXdg&s"
-                  />
+                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                    <span className="text-sky-500 font-bold text-sm">EP</span>
+                  </div>
                 </div>
                 <div className="flex-grow space-y-4">
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 group-hover:text-sky-600 transition-smooth">
-                      Web Development Intern
+                      Software Developer
                     </h3>
                     <p className="text-gray-700 font-medium text-lg">
-                      360XpertSolutions
+                      Enter and Post LLC
                     </p>
                     <div className="flex items-center gap-4 text-gray-500 text-sm">
                       <span className="flex items-center gap-2">
+                        <MapPin className="w-4 h-4" />
+                        Karachi, PK
+                      </span>
+                      <span className="flex items-center gap-2">
                         <Calendar className="w-4 h-4" />
-                        06/2024 - 12/2024
+                        Feb 2025 – Present
                       </span>
                     </div>
                   </div>
                   <ul className="space-y-3 text-gray-600">
                     <li className="flex items-start gap-3">
                       <span className="text-sky-500 mt-1 text-lg">•</span>
-                      <span className="text-lg leading-relaxed">Translated Figma designs into pixel-perfect code using Next.js and TailwindCSS</span>
+                      <span className="text-lg leading-relaxed">Led a cross-functional team of 4 developers to deliver multiple production-ready full-stack applications, increasing team delivery velocity by 30%</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-sky-500 mt-1 text-lg">•</span>
-                      <span className="text-lg leading-relaxed">Optimized responsiveness of components for various screen sizes</span>
+                      <span className="text-lg leading-relaxed">Managed production environments on Cloud VPS using PM2 and Nginx, maintaining 99.9% uptime while automating SSL renewal processes</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-sky-500 mt-1 text-lg">•</span>
+                      <span className="text-lg leading-relaxed">Architected real-time notification systems with Socket.io, improving user engagement by 40% through instant updates on business workflows</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-sky-500 mt-1 text-lg">•</span>
+                      <span className="text-lg leading-relaxed">Acted as primary technical liaison for international clients, translating complex business requirements into technical roadmaps for the engineering team</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Full Stack Developer - Turn Up Technologies */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-green-400 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg">
+                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                    <span className="text-green-500 font-bold text-sm">TU</span>
+                  </div>
+                </div>
+                <div className="flex-grow space-y-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 group-hover:text-sky-600 transition-smooth">
+                      Full Stack Developer
+                    </h3>
+                    <p className="text-gray-700 font-medium text-lg">
+                      Turn Up Technologies
+                    </p>
+                    <div className="flex items-center gap-4 text-gray-500 text-sm">
+                      <span className="flex items-center gap-2">
+                        <MapPin className="w-4 h-4" />
+                        Karachi, PK
+                      </span>
+                      <span className="flex items-center gap-2">
+                        <Calendar className="w-4 h-4" />
+                        June 2024 – Mar 2025
+                      </span>
+                    </div>
+                  </div>
+                  <ul className="space-y-3 text-gray-600">
+                    <li className="flex items-start gap-3">
+                      <span className="text-sky-500 mt-1 text-lg">•</span>
+                      <span className="text-lg leading-relaxed">Engineered MERN-based solutions with complex Role-Based Access Control (RBAC) to ensure secure data handling across multiple user types</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-sky-500 mt-1 text-lg">•</span>
+                      <span className="text-lg leading-relaxed">Integrated Stripe for global payment processing, maintaining a 99.9% transaction success rate via automated webhook handling</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-sky-500 mt-1 text-lg">•</span>
+                      <span className="text-lg leading-relaxed">Optimized backend performance by implementing caching and refining MongoDB aggregation pipelines, reducing API response times by 35%</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-sky-500 mt-1 text-lg">•</span>
+                      <span className="text-lg leading-relaxed">Developed multi-step workflows using React state management to ensure a 0% data loss rate during complex user registration journeys</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Frontend Developer - 360Xpert Solutions */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg">
+                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                    <span className="text-purple-500 font-bold text-sm">360</span>
+                  </div>
+                </div>
+                <div className="flex-grow space-y-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 group-hover:text-sky-600 transition-smooth">
+                      Frontend Developer
+                    </h3>
+                    <p className="text-gray-700 font-medium text-lg">
+                      360Xpert Solutions
+                    </p>
+                    <div className="flex items-center gap-4 text-gray-500 text-sm">
+                      <span className="flex items-center gap-2">
+                        <MapPin className="w-4 h-4" />
+                        Karachi, PK
+                      </span>
+                      <span className="flex items-center gap-2">
+                        <Calendar className="w-4 h-4" />
+                        Nov 2023 – June 2024
+                      </span>
+                    </div>
+                  </div>
+                  <ul className="space-y-3 text-gray-600">
+                    <li className="flex items-start gap-3">
+                      <span className="text-sky-500 mt-1 text-lg">•</span>
+                      <span className="text-lg leading-relaxed">Built responsive interactive dashboards using React and Tailwind CSS, resulting in a 15% increase in user retention metrics</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-sky-500 mt-1 text-lg">•</span>
+                      <span className="text-lg leading-relaxed">Integrated RESTful APIs for real-time data visualization and implemented custom React hooks to centralize error handling logic</span>
                     </li>
                   </ul>
                 </div>
@@ -229,93 +301,69 @@ export default function Home() {
               <div className="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center">
                 <Code className="w-6 h-6 text-sky-500" />
               </div>
-              <h2 className="text-5xl font-display font-bold text-gray-900 tracking-tight">Skills</h2>
+              <h2 className="text-5xl font-display font-bold text-gray-900 tracking-tight">Skills & Expertise</h2>
             </div>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">Technologies and tools I work with</p>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">Technologies and tools I work with professionally</p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {/* ReactJS */}
-            <div className="group bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-sky-400 to-blue-400 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="ReactJS"
-                    className="w-10 h-10 object-contain"
-                    src="https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png"
-                  />
-                </div>
-                <h3 className="text-gray-900 font-medium text-center group-hover:text-sky-600 transition-smooth text-lg">ReactJS</h3>
+          <div className="max-w-6xl mx-auto space-y-12">
+            {/* Languages */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Languages</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {['JavaScript (ES6+)', 'SQL (PostgreSQL)', 'NoSQL (MongoDB)'].map((skill) => (
+                  <div key={skill} className="bg-white border border-gray-200 rounded-xl px-6 py-3 text-center hover:border-sky-300 transition-smooth hover-lift shadow-sm">
+                    <span className="text-gray-900 font-medium">{skill}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* Next.js */}
-            <div className="group bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-gray-600 to-gray-800 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="Next.js"
-                    className="w-10 h-10 object-contain"
-                    src="https://cdn.creazilla.com/icons/3219990/nextjs-icon-md.png"
-                  />
-                </div>
-                <h3 className="text-gray-900 font-medium text-center group-hover:text-sky-600 transition-smooth text-lg">Next.js</h3>
+            {/* Frontend */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Frontend Development</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {['React', 'Next.js', 'Tailwind CSS', 'ShadCN/UI', 'Redux Toolkit', 'Socket.io'].map((skill) => (
+                  <div key={skill} className="bg-white border border-gray-200 rounded-xl px-6 py-3 text-center hover:border-sky-300 transition-smooth hover-lift shadow-sm">
+                    <span className="text-gray-900 font-medium">{skill}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* JavaScript */}
-            <div className="group bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="JavaScript"
-                    className="w-10 h-10 object-contain"
-                    src="https://static.vecteezy.com/system/resources/previews/048/332/149/non_2x/js-icon-transparent-background-free-png.png"
-                  />
-                </div>
-                <h3 className="text-gray-900 font-medium text-center group-hover:text-sky-600 transition-smooth text-lg">JavaScript</h3>
+            {/* Backend */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Backend Development</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {['Node.js', 'Express.js', 'Mongoose', 'Prisma ORM', 'REST APIs'].map((skill) => (
+                  <div key={skill} className="bg-white border border-gray-200 rounded-xl px-6 py-3 text-center hover:border-sky-300 transition-smooth hover-lift shadow-sm">
+                    <span className="text-gray-900 font-medium">{skill}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* HTML & CSS */}
-            <div className="group bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="HTML & CSS"
-                    className="w-10 h-10 object-contain"
-                    src="https://image.pngaaa.com/335/3920335-middle.png"
-                  />
-                </div>
-                <h3 className="text-gray-900 font-medium text-center group-hover:text-sky-600 transition-smooth text-lg">HTML & CSS</h3>
+            {/* DevOps & Tools */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">DevOps & Tools</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {['AWS (EC2, S3, RDS)', 'Docker', 'GitHub Actions (CI/CD)', 'Nginx', 'PM2', 'Vercel', 'Git'].map((skill) => (
+                  <div key={skill} className="bg-white border border-gray-200 rounded-xl px-6 py-3 text-center hover:border-sky-300 transition-smooth hover-lift shadow-sm">
+                    <span className="text-gray-900 font-medium">{skill}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* TailwindCSS */}
-            <div className="group bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-sky-400 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="TailwindCSS"
-                    className="w-10 h-10 object-contain"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDML5CFq70Y9FJ52YnyCjfdyUA3g9B6is_jA&s"
-                  />
-                </div>
-                <h3 className="text-gray-900 font-medium text-center group-hover:text-sky-600 transition-smooth text-lg">TailwindCSS</h3>
-              </div>
-            </div>
-
-            {/* Git & GitHub */}
-            <div className="group bg-white border border-gray-200 rounded-2xl p-8 hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-gray-700 to-gray-900 rounded-2xl flex items-center justify-center shadow-lg">
-                  <img
-                    alt="Git & GitHub"
-                    className="w-10 h-10 object-contain"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1bctuHVp7CoSYIgexL8-iR5EfQq-E354UnA&s"
-                  />
-                </div>
-                <h3 className="text-gray-900 font-medium text-center group-hover:text-sky-600 transition-smooth text-lg">Git & GitHub</h3>
+            {/* Monitoring */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Monitoring & Analytics</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {['Sentry', 'Prometheus', 'Grafana'].map((skill) => (
+                  <div key={skill} className="bg-white border border-gray-200 rounded-xl px-6 py-3 text-center hover:border-sky-300 transition-smooth hover-lift shadow-sm">
+                    <span className="text-gray-900 font-medium">{skill}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -328,34 +376,42 @@ export default function Home() {
               <div className="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center">
                 <Code className="w-6 h-6 text-sky-500" />
               </div>
-              <h2 className="text-5xl font-display font-bold text-gray-900 tracking-tight">Projects</h2>
+              <h2 className="text-5xl font-display font-bold text-gray-900 tracking-tight">Featured Projects</h2>
             </div>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">Featured projects and work I'm proud of</p>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">Production-ready applications I've built and deployed</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {/* Project 1 */}
+            {/* The Trade Core */}
             <div className="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
               <div className="p-8 space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-16 h-16 bg-gradient-to-br from-sky-400 to-blue-400 rounded-2xl flex items-center justify-center shadow-lg">
-                    <img
-                      alt="Samurai Systems"
-                      className="w-10 h-10 object-contain rounded-lg bg-white p-2"
-                      src="https://360-samurai.vercel.app/assets/logo_black.svg"
-                    />
+                    <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                      <span className="text-sky-500 font-bold text-xs">TC</span>
+                    </div>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 group-hover:text-sky-600 transition-smooth">
-                      Samurai Systems
+                      The Trade Core
                     </h3>
+                    <p className="text-gray-600 font-medium">UK Trades Marketplace</p>
                   </div>
                 </div>
                 <p className="text-gray-600 leading-relaxed text-lg">
-                  Developed a responsive web application with engaging UX using NextJS and TailwindCSS.
+                  Developed a homeowner-to-trade marketplace featuring automated recurring billing and subscription management via Prisma and PostgreSQL.
                 </p>
+                <div className="space-y-2">
+                  <p className="text-gray-700 font-medium">Key Features:</p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Automated recurring billing system</li>
+                    <li>• Subscription management with Prisma</li>
+                    <li>• PostgreSQL database architecture</li>
+                    <li>• AWS EC2 and RDS deployment</li>
+                  </ul>
+                </div>
                 <a
-                  href="https://360-samurai.vercel.app/"
+                  href="https://app.thetradecore.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sky-500 hover:text-sky-600 transition-smooth font-medium"
@@ -366,28 +422,36 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 2 */}
+            {/* Acewall Scholars */}
             <div className="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-sky-300 transition-smooth hover-lift shadow-sm hover:shadow-lg">
               <div className="p-8 space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg">
-                    <img
-                      alt="Smart Assistant"
-                      className="w-10 h-10 object-contain rounded-lg bg-white p-2"
-                      src="https://smart-assistant-alpha.vercel.app/_next/image?url=%2Foglogo.png&w=96&q=75"
-                    />
+                    <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                      <span className="text-green-500 font-bold text-xs">AS</span>
+                    </div>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 group-hover:text-sky-600 transition-smooth">
-                      Smart Assistant
+                      Acewall Scholars
                     </h3>
+                    <p className="text-gray-600 font-medium">Full-Stack LMS Platform</p>
                   </div>
                 </div>
                 <p className="text-gray-600 leading-relaxed text-lg">
-                  Created frontend for an AI-powered HR tool to shortlist resumes based on job descriptions.
+                  Scaled a Learning Management System to support 10,000+ active users by implementing automated course enrollment via Stripe webhooks.
                 </p>
+                <div className="space-y-2">
+                  <p className="text-gray-700 font-medium">Key Features:</p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• 10,000+ active user support</li>
+                    <li>• Stripe webhook automation</li>
+                    <li>• Real-time messaging with Socket.io</li>
+                    <li>• 45% reduction in response latency</li>
+                  </ul>
+                </div>
                 <a
-                  href="https://smart-assistant-alpha.vercel.app/"
+                  href="https://acewallscholarslearningonline.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sky-500 hover:text-sky-600 transition-smooth font-medium"
