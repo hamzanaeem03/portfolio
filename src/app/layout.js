@@ -1,12 +1,8 @@
-import localFont from "next/font/local";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
+import { Space_Grotesk } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -14,27 +10,22 @@ const spaceGrotesk = Space_Grotesk({
   display: "swap",
 });
 
-const poppins = localFont({
-  src: [
-    { path: "/fonts/poppins-medium-webfont.woff2", weight: "400", style: "normal", display: "swap" },
-    // { path: "/fonts/poppins-bold-webfont.woff2", weight: "700", style: "normal", display: "swap" },
-  ],
-  variable: "--font-poppins",
-});
-
 export const metadata = {
-  title: "Hamza Naeem - Software Developer",
-  description: "Software Developer leading cross-functional teams to deliver production-ready full-stack applications with modern technologies.",
+  title: "Hamza Naeem — Full Stack Developer",
+  description: "Full Stack Developer based in Karachi. Building production systems that scale — real-time APIs, infrastructure, and the interfaces in between.",
+  openGraph: {
+    title: "Hamza Naeem — Full Stack Developer",
+    description: "Full Stack Developer. 10k+ users. 99.9% uptime. Based in Karachi.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${spaceGrotesk.variable} ${poppins.variable} font-sans antialiased bg-white text-gray-900`}
-      >
+      <body className={`${GeistSans.variable} ${GeistMono.variable} ${spaceGrotesk.variable} font-sans antialiased bg-zinc-950 text-zinc-50`}>
         {children}
-        <script src="/scripts.js" defer></script>
+        <Analytics />
       </body>
     </html>
   );
